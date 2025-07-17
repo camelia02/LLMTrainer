@@ -1,6 +1,18 @@
 # LLMTrainer
 
-This project fine-tunes Meta's LLaMA 3.2-3B using QLoRA (4-bit quantization + LoRA adapters) on multi-turn conversational data from The Tome.
+This project fine-tunes Meta's LLaMA 3.2-3B using QLoRA (4-bit quantization + LoRA adapters) on multi-turn conversational data from a custom dataset.
+
+Datasets (~1.8M rows):
+  TIGER-Lab/WebInstructSub (top-500k)
+  jondurbin/airoboros-3.2
+  gardner/glaive-function-calling-v2-sharegpt
+  cognitivecomputations/ultrainteract_trajectories_sharegpt
+  cognitivecomputations/SystemChat-2.0
+  arcee-ai/qwen2-72b-magpie-en
+  arcee-ai/reasoning-sharegpt (SkunkworksAI/reasoning-0.01)
+  arcee-ai/self-instruct-sharegpt (bigcode/self-oss-instruct-sc2-exec-filter-50k)
+  arcee-ai/infini-instruct-top-500k (BAAI/Infinity-Instruct)
+
 
 We format conversations into instruction-output pairs, tokenize them, and train a PEFT (LoRA) adapter for the model using the Hugging Face transformers + peft libraries.
 
