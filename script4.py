@@ -36,7 +36,7 @@ base_model = 'meta-llama/Llama-3.2-3B'
 tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
 
-file_path = '/scratch/cahmadna/the_tome.jsonl'
+file_path = '/scratch/cahmadna/datasets.jsonl'
 
 def stream_jsonl(path):
     with open(path, 'r', encoding='utf-8') as tome:
