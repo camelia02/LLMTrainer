@@ -52,7 +52,7 @@ Wandb report: https://wandb.ai/cahmadna-arizona-state-university/Fine-tune%20Lla
  - Misinformation
 <img width="1213" height="526" alt="image" src="https://github.com/user-attachments/assets/cec5c9b9-4973-41fd-8c6e-d7173c09fc9d" />
 
-- Hallucinations
+- Hallucinations/Biases
   <img width="1212" height="485" alt="image" src="https://github.com/user-attachments/assets/a6c4fe90-78b2-418b-b751-620bb576c3af" />
 
 
